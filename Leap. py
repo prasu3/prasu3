@@ -1,6 +1,4 @@
-Printing count of leap years in the given range
 
-Program:
 def leap(yr):
     if yr%400==0:
         return True
@@ -12,6 +10,3 @@ s,e=map(int,input().split())
 l=[i for i in range (s,e+1) if leap(i)]
 print(len(l))
 
-Output:
-2000 2010
-3
